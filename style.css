@@ -1,0 +1,61 @@
+.body{
+  margin: 0;
+  padding: 0;
+}
+.main-heading{
+  display: block;
+  width:100% ;
+  
+
+
+}
+
+
+.heading-1{
+display: inline-block;
+width: 32%;
+position: relative;
+
+}
+.text{
+  position: absolute;
+  top: 0%;
+  text-align: center;
+  opacity:0 ;
+  background:  #0c8281;
+  width: 100%;
+  height: 100%;
+  transition: 5s;
+  
+
+}
+.text-22{
+position: absolute;
+bottom: 0%;
+margin-left:80px ;
+color: rgb(0, 48, 110);
+
+}
+.heading-1:hover .text{
+  opacity: 1;  
+  transition: 5s;
+  
+}
+.text-22{
+  position: absolute;
+  top: 70%;
+  text-align: center;
+
+}
+.heading-1:hover .text-22{
+  position: absolute;
+  top: 70%;
+  text-align: center;
+  opacity:0 ;
+
+  transition: .5s;
+}
+.heading-image img{
+ 
+}
+
